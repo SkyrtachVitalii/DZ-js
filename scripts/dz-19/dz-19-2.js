@@ -11,7 +11,7 @@ function checkArr(arrNumsS, nNums){
     else if((arrNumsS[i] % 3 === 0) && (arrNumsS[i] % 5 !== 0)){
       arrNumsS[i] = "fizz";
     }
-    else{
+    else if((arrNumsS[i] % 3 !== 0) && (arrNumsS[i] % 5 === 0)){
       arrNumsS[i] = "buzz";
     }
   }
