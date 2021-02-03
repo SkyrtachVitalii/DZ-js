@@ -38,4 +38,3 @@ function minPrice(everyOb){
 totalSum(obj);
 maxPrice(obj);
 minPrice(obj);
-
