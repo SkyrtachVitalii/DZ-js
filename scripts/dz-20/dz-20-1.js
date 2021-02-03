@@ -11,7 +11,7 @@ function totalSum (myObj){
     for (let key in myObj){
         sum += myObj[key];
     }
-    return console.log(sum);
+    return console.log("Загальна сума чисел " + sum);
 }
 
 function maxPrice(everyObj){
@@ -21,7 +21,7 @@ function maxPrice(everyObj){
             thingPrice = everyObj[key];
         }
     }
-    return console.log(thingPrice);
+    return console.log("Максимальна сума об'єкту " + thingPrice);
 }
 
 function minPrice(everyOb){
@@ -32,7 +32,7 @@ function minPrice(everyOb){
             thingPrice = everyOb[key];
         }
     }
-    return console.log(thingPrice);
+    return console.log("Мінімальна сума об'єкту " + thingPrice);
 }
 
 totalSum(obj);
