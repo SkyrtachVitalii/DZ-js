@@ -32,7 +32,7 @@ function middleRating (objec){
         sumRating += Number(objec[i].rating);
     }
     middleRating = sumRating/objec.length;
-    return console.log(middleRating);
+    return console.log("Середній рейтинг фільмів " + middleRating);
 }
 
 
