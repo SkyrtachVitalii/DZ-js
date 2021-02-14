@@ -1,11 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
 .DZ-16{
     background-color: #222854;
 }
 
 .homework{
     background-color: #08c;
+    font-size: 40px;
+    text-align: center;
 }
 
 .display{
     display: none;
 }
+
+.sjdhgkwe{
+    background-color: #08c;
+}
+
+.box{
+    margin: 100px;
+    padding: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.array{
+    padding: 20px 40px 40px;
+    background-color: wheat;
+    display: flex;
+}
+
+.array__item{
+    width: 25%;
+    background-color: white;
+    padding: 0 20px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.array__img{
+    display: block;
+    margin: 5px auto;
+    width: 70px;
+    height: auto;
+}
+
+.array__title{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.array__text{
+    padding: 10px 0 30px;
+}
+
+.array__btn{
+    width: 73%;
+    margin: 0 auto;
+    position: absolute;
+    left: 13%; 
+    bottom: -30px; 
+    right: auto;
+    overflow: auto;
+}
+
+.array__btn a{
+    height: 50px;
+    border-radius: 4px;
+    background-color: green;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.array__btn--active a{
+    background-color: red;
+}
+
+
+
