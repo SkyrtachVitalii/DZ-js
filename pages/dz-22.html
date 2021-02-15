@@ -9,7 +9,60 @@
 </head>
 
 <body>
-    <script type="text/javascript" src="../scripts/dz-21/dz-22-1.js" language="javascript" defer></script>
+
+    <section class="container">
+        <div class="todo">
+            <div class="todo__item">
+                <div>
+                    <form class="add__event" action="" name="addEvent">
+                        <input class="addNewEvent" type="text" name="NewEvent">
+                        <button class="addNewEventBtn" type="button" onclick="addNewEvent(this)">Add Event</button>
+                    </form>
+                </div>
+            </div>
+            <div class="todo__item">
+                <div class="list__todo">
+                    <form class="event__list" action="" name="event-list">
+                        <!-- <div class="event__item">
+                            <p class="event event--text">------------------------- -----------------
+                                --------------------------- ---------- ----------- ------------ --------</p>
+                            <input class="checkboxdone" type="checkbox" name="done">
+                        </div> -->
+                    </form>
+                </div>
+                <div class="list__done" id="list__done">
+                    <!-- <div class="event__item">
+                        <p class="event event--text">------------------------- -----------------
+                            --------------------------- ---------- ----------- ------------ --------</p>
+                        <img class="recycle-img" src="https://img.icons8.com/ios/452/shopping-cart.png" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="">
+        <h1>Events</h1>
+        <div class="box" id="box" onclick="toggleBg(this)">
+            test
+        </div>
+        <button id="send" type="button">SEND</button>
+        <button onclick="send()" type="button">SEND</button>
+    </div>
+
+    <form action="" name="callme">
+        <input type="text" name="name">
+        <input type="text" name="phone">
+        <input type="checkbox" name="agree">test
+    </form>
+
+    <form action="" name="order">
+        <input type="text" name="firsName">
+        <input type="text" name="lastName">
+    </form>
+
+    <!-- <script type="text/javascript" src="../scripts/dz-22/dz-22-1.js" language="javascript" defer></script> -->
+    <script type="text/javascript" src="../scripts/dz-22/dz-22-2.js" language="javascript" defer></script>
 
 </body>
 

@@ -91,5 +91,78 @@ body > div{
     background-color: red;
 }
 
+body > div > .box{
+    width: 500px;
+    height: 500px;
+    background-color: #08c;
+}
+
+.todo__item{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.add__event{
+    background-color: silver;
+    padding: 30px 300px;
+    display: flex;
+}
+
+.addNewEvent{
+    width: 450px;
+    height: 50px;
+    padding: 10px;
+}
+
+.addNewEventBtn{
+    width: 150px;
+    background-color: green;
+    margin-left: 20px;
+    border: none;
+}
 
 
+.list__todo{
+    padding: 10px;
+}
+.event__list{
+    
+}
+
+.event{
+    margin: 0 auto;
+}
+
+.event--text{
+    margin-right: 50px;
+}
+
+.checkboxdone{
+    margin: -0.625em 10px 0;
+    right: -3px;
+    position: absolute;
+    top: 50%;
+}
+
+.event__item{
+    margin: auto auto 10px 10px;
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: brown;
+    position: relative;
+}
+
+.list__done{
+    padding: 10px;
+}
+
+.recycle-img{
+    width: 20px;
+    height: 20px;
+    margin: -0.625em 10px auto;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
