@@ -127,7 +127,7 @@ function addNewFilm(type, args){
     )
 }
 // let c = 5;
-// let isShowModal = false;
+let isShowModal = false;
 
 // function sum (a= 0, b = 0){
 //     console.log(a+b)
@@ -137,19 +137,19 @@ function addNewFilm(type, args){
 // sum(c);
 // sum();
 
-// let openBtn = document.querySelector('#openButton');
-// let modal = document.querySelector('#modal');
-// let overlay = document.querySelector('#modal__overlay');
+let openBtn = document.querySelector('#openButton');
+let modal = document.querySelector('#modal');
+let overlay = document.querySelector('#modal__overlay');
 
-// openBtn.addEventListener('click', toggleModal);
-// overlay.addEventListener('click', toggleModal);
+openBtn.addEventListener('click', toggleModal);
+overlay.addEventListener('click', toggleModal);
 
-// function toggleModal(show = !isShowModal){
-//     if(isShowModal){
-//         isShowModal = false;
-//         modal.classList.remove('modal--open');
-//     }else{
-//         isShowModal = true;
-//         modal.classList.add('modal--open');
-//     }
-// }
+function toggleModal(show = !isShowModal){
+    if(isShowModal){
+        isShowModal = false;
+        modal.classList.remove('modal--open');
+    }else{
+        isShowModal = true;
+        modal.classList.add('modal--open');
+    }
+}
