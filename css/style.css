@@ -240,3 +240,37 @@ td{
     margin-bottom: 10px;
     padding: 0 10px;
 }
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal--open{
+    display: flex;
+}
+
+.modal__overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal__content{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    background-color: blanchedalmond;
+}
