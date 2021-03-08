@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header29{
+    text-align: center;
+    padding: 50px 15px;
+    background-color: #ddd;
+    border-bottom: 1px solid #fff;
 }
 
 body > div{
@@ -34,7 +42,9 @@ body > div{
 .container{
     margin: 0 auto;
     max-width: 1200px;
+    width: 100%;
     padding: 20px;
+    background-color: #ddd;
 }
 
 .array{
@@ -273,4 +283,68 @@ td{
     z-index: 2;
     position: relative;
     background-color: blanchedalmond;
+}
+
+.products, .users{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__item, .users__item{
+    flex: 0 0 18%;
+    margin: 1%;
+    background: #fff;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.products__img, .users__avatar{
+    height: 250px;
+    background-size: contain;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.products__title, .users__name{
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.products__description{
+    font-size: 13px;
+    line-height: 1.4;
+    color: #888;
+    min-height: 110px;
+}
+
+.products__price{
+    color: #08c;
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+button .spinner-grow{
+    display: none;
+}
+
+button.loading .spinner-grow{
+    display: inline-block;
+}
+
+.users__status{
+    font-size: 13px;
+    line-height: 1.4;
+    color: #888;
+}
+
+.users__phone{
+    text-align: center;
+}
+
+.users__email{
+    text-align: right;
 }
